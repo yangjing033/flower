@@ -1,0 +1,51 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font: 14px "Microsoft YaHei UI", "sans-serif";
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+img{
+    border: none;
+}
+.final{
+    width: 100%;
+    height: 250px;
+    background: white;
+    /*margin-top: 20px;*/
+}
+.final .finalContent{
+    width: 240px;
+    height: 100px;
+    margin: 0 auto;
+}
+.final .finalContent img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: left;
+    padding: 30px 20px 30px 20px;
+}
+.final .finalText{
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+    text-align: center;
+}
+.final .finalText a{
+    color: blue;
+}
+.final .finalText li{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    line-height: 40px;
+}
+/*    final    */

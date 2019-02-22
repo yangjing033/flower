@@ -1,0 +1,189 @@
+@import url(base.css);
+.nav {
+    width: 100%;
+    height: 79px;
+    background: white;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #cccccc;
+}
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: color linear 0.1s;
+}
+.navList li a:hover{
+    color: #16b0bc;
+}
+/*nav*/
+.banner{
+    width: 100%;
+    height: 120px;
+    background: #f1f1f1;
+    padding-bottom: 10px;
+    padding-top: 89px;
+}
+.banner p{
+    line-height: 120px;
+    font-size: 30px;
+    color: #f67a82;
+    text-align: center;
+}
+/*banner*/
+.news{
+    background: #f1f1f1;
+    padding: 30px 0;
+}
+.newsList{
+    display: flex;
+    justify-content: center;
+}
+.newsList .left{
+    padding: 30px;
+    background: white;
+}
+.box{
+    height: 160px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f0f2f5;
+}
+.boxLeft{
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+    float: left;
+}
+.boxLeft img{
+    width: 160px;
+    height: 160px;
+}
+.boxRight{
+    height: 160px;
+    float: left;
+}
+.boxRight h{
+    display: block;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.boxRight p{
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 10px;
+}
+.boxRight p span{
+    color: #a3afb7;
+    font-size: 16px;
+    font-weight: 300;
+}
+.page{
+    margin-top: 20px;
+    text-align: center;
+}
+.page span{
+    border: 1px solid #e4eaec;
+    padding: 9px 15px;
+    color: #ccd5db;
+}
+.page a{
+    border: 1px solid #e4eaec;
+    padding: 9px 15px;
+    color: #76838f;
+}
+.page a:hover{
+    background: #f86867;
+    border-color: #f86867;
+    color: white;
+}
+.right{
+    width: 262px;
+    height: 315px;
+    background: white;
+    /*float: left;*/
+    margin-left: 30px;
+    padding: 20px;
+}
+.inputSearch{
+    width: 223px;
+    height: 36px;
+    border: 1px solid #a3afb7;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.inputSearch input{
+    width: 200px;
+    height: 26px;
+    border: hidden;
+    margin: 5px 0;
+}
+.tuijian{
+    margin: 20px 0;
+    border-top: 1px solid #a3afb7;
+    border-bottom: 1px solid #a3afb7;
+}
+.tuijian h{
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+    margin: 20px 0 10px 0;
+}
+.tuijian .item{
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid #a3afb7;
+    margin-bottom: -1px;
+}
+.allartical{
+    margin-top: 20px;
+    border-top: 1px solid #a3afb7;
+}
+.allartical a{
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #2a333c;
+}
+a:hover{
+    color: #62a8ea;
+    text-decoration: underline;
+}
+/*news*/
